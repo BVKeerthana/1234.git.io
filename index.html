@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Web development</title>
+</head>
+
+<body id="good">
+    <h1>
+        <marquee> Hello,Everyone</marquee>
+    </h1>
+    <button onclick="red()">red</button>
+    <button onclick="blue()">blue</button>
+    <button onclick="yellow()">yellow</button>
+</body>
+<script type="text/javascript">
+    function red() {
+        var m = document.getElementById('good')
+        m.style.backgroundColor = "red"
+        alert("your background color is red")
+    }
+    function blue() {
+        var m = document.getElementById('good')
+        m.style.backgroundColor = "blue"
+    }
+    function yellow() {
+        var m = document.getElementById('good')
+        m.style.backgroundColor = "yellow"
+    }
+</script>
+
+</html>
